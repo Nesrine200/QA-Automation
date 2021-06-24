@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2213668400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Authentication - orangeHRM",
+        "description": "",
+        "id": "authentication---orangehrm;authentication---orangehrm",
+        "after": [
+          {
+            "result": {
+              "duration": 1298964300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1676660700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je me connecte à l\u0027application OrangeHRM",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeMeConnecteÀLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71615500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisie Username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisieUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62021300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je saisie Password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 20
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeSaisiePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122793200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Je clique sur le button login",
+            "match": {
+              "location": "AuthenticationStepDefinitions.jeCliqueSurLeButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38681400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Je me redirige vers le compte admin \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 37
+                }
+              ],
+              "location": "AuthenticationStepDefinitions.jeMeRedirigeVersLeCompteAdmin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@cnx"
+          }
+        ]
+      }
+    ],
+    "name": "Authentication - orangeHRM",
+    "description": "En tant que utilisateur je souhaite m\u0027authentifier",
+    "id": "authentication---orangehrm",
+    "keyword": "Feature",
+    "uri": "authentication/Authentication.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@connexion"
+      }
+    ]
+  }
+]

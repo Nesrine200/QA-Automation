@@ -1,6 +1,6 @@
 @connexion
 Feature: Authentication - orangeHRM
- En tant que utilisateur je souhaite m'authentifier
+  En tant que utilisateur je souhaite m'authentifier
 
   @cnx
   Scenario: Authentication - orangeHRM
@@ -8,5 +8,6 @@ Feature: Authentication - orangeHRM
     When Je saisie Username "Admin" 
     And Je saisie Password "admin123" 
     And Je clique sur le button login
-    Then Je me redirige vers le compte admin
- 
+    Then Je me redirige vers le compte admin "Welcome" 
+    
+      

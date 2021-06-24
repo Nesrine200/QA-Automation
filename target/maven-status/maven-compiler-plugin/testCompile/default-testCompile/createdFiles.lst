@@ -1,0 +1,17 @@
+com\orangeHRM\e2eTests\utils\ChromeDriverManager.class
+com\orangeHRM\e2eTests\utils\DriverManager.class
+com\orangeHRM\e2eTests\utils\Setup.class
+com\orangeHRM\e2eTests\utils\DriverManagerFactory.class
+com\orangeHRM\e2eTests\utils\DriverType.class
+com\orangeHRM\e2eTests\authentication\stepDefinitions\AuthenticationStepDefinitions.class
+com\orangeHRM\e2eTests\utils\InternetExplorerDriver.class
+com\orangeHRM\e2eTests\utils\AbstractPage.class
+com\orangeHRM\e2eTests\utils\CommonMethods.class
+com\orangeHRM\e2eTests\authentication\stepDefinitions\AuthenticationOutlineStepDefinition.class
+com\orangeHRM\e2eTests\utils\DriverManagerFactory$1.class
+com\orangeHRM\e2eTests\utils\FirefoxDriverManager.class
+com\orangeHRM\e2eTests\utils\EdgeDriverManager.class
+com\orangeHRM\e2eTests\authentication\pages\AuthenticationPage.class
+com\orangeHRM\e2eTests\buzz\stepDefinitions\BuzzStepDefinition.class
+com\orangeHRM\e2eTests\TestRunner.class
+com\orangeHRM\e2eTests\buzz\pages\BuzzPage.class
